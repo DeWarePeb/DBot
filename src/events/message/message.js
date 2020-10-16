@@ -10,5 +10,5 @@ module.exports = (client, message) => {
     client.commands.get(cmdName)(client, message, args);
   else
     message.channel.send("No command is named that way.");
-  console.log("Command does not exist.");
+    console.log("Command does not exist.");
 };
